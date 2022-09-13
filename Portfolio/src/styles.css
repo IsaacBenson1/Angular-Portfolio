@@ -3,14 +3,22 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     background-color: #f6f3ed;
-    padding-top: 60px;
+    padding-top: 10px;
     height: 100%;
  }
 
 
 body * {
     margin: 0;
-    padding: 0;
+    padding-left: 5px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     box-sizing: border-box;
  }
+
+ mat-tab-group {
+    margin-bottom: 5px;
+}
+
+mat-tab-header {
+    margin-bottom: 15px;
+}
