@@ -1,22 +1,53 @@
-<mat-tab-group animationDuration="1500ms" mat-align-tabs="center" >
+<div class = "header" >
+  <div>
+    <mat-slide-toggle style = "margin-left: 90%; padding-top: 1%; padding-right: 5px;">
+      Dark Mode
+    </mat-slide-toggle>
+  </div>
+  <div class = "header-text">
+    <b>
+      <i>
+        Isaac Benson
+      </i>
+    </b>
+  </div>
+</div>
+
+<mat-tab-group animationDuration="500ms" mat-align-tabs="center" color = "accent">
   <mat-tab label="Introduction">
-     <div>
+     <div class = "slider_content">
       Isaac Benson
      </div>
   </mat-tab>
   <mat-tab label="Work experience">
-     <div>
-      Isaac Benson
+     <div class = "slider_content">
+      <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>Teaching Assitant</mat-grid-tile>
+        <mat-grid-tile>Application Developer Intern @ IDeaS SAS</mat-grid-tile>
+        <mat-grid-tile>Web Programming Intern @ LinkUp</mat-grid-tile>
+        <mat-grid-tile>4</mat-grid-tile>
+      </mat-grid-list>
      </div>
   </mat-tab>
   <mat-tab label="Resume">
-     <div>
-      Isaac Benson
+     <div class = "slider_content">
+      <head>
+        <title>Isaac Benson</title>
+      </head>
+      <body style ="padding-left: 30%;">
+        <iframe src="../assets/Isaac Benson Resume.pdf" width="75%" height="850px" >
+        </iframe>
+      </body>
      </div>
   </mat-tab>
   <mat-tab label="Projects">
-    <div>
-     Isaac Benson
+    <div class = "slider_content">
+      <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>Java Engine</mat-grid-tile>
+        <mat-grid-tile>JBoid AI</mat-grid-tile>
+        <mat-grid-tile>PyCoin</mat-grid-tile>
+        <mat-grid-tile>Portfolio</mat-grid-tile>
+      </mat-grid-list>
     </div>
  </mat-tab>
 </mat-tab-group>

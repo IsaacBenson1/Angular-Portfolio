@@ -12,3 +12,4 @@ import {MatTabsModule} from '@angular/material/tabs';
 export class AppComponent {
   title = 'Isaac Benson';
 }
+
