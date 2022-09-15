@@ -1,6 +1,6 @@
 <div class = "header" >
   <div>
-    <mat-slide-toggle style = "margin-left: 90%; padding-top: 1%; padding-right: 5px;">
+    <mat-slide-toggle style = "margin-left: 90%; padding-top: 1%; padding-right: 1%;">
       Dark Mode
     </mat-slide-toggle>
   </div>
@@ -14,18 +14,21 @@
 </div>
 
 <mat-tab-group animationDuration="500ms" mat-align-tabs="center" color = "accent">
-  <mat-tab label="Introduction">
-     <div class = "slider_content">
-      Isaac Benson
+  <mat-tab label="Introduction" >
+     <div class = "slider_content" style = "padding-left: 20%; padding-top: 4%; font-weight: bold; color: rgb(113, 113, 113)">
+      Hey ! I'm Isaac Benson. I'm a senior Computer Science student at the University of Minnesota. I have 2 years of experience <br>
+      in the tech industry, and I've been programing for over 6 years. I have professional experience in frontend web development, <br>
+      as well as big data, and i'm excited to be seeking software engineering roles anticipating my graduation in May of 2023.
+
      </div>
   </mat-tab>
   <mat-tab label="Work experience">
      <div class = "slider_content">
       <mat-grid-list cols="2" rowHeight="2:1">
-        <mat-grid-tile>Teaching Assitant</mat-grid-tile>
-        <mat-grid-tile>Application Developer Intern @ IDeaS SAS</mat-grid-tile>
-        <mat-grid-tile>Web Programming Intern @ LinkUp</mat-grid-tile>
-        <mat-grid-tile>4</mat-grid-tile>
+        <mat-grid-tile style = "background-color: lightcoral;">Teaching Assitant</mat-grid-tile>
+        <mat-grid-tile style = "background-color: rgb(255, 255, 118);">Application Developer Intern @ IDeaS SAS</mat-grid-tile>
+        <mat-grid-tile style = "background-color: lightgreen;" >Web Programming Intern @ LinkUp</mat-grid-tile>
+        <mat-grid-tile style = "background-color: lightblue;">4</mat-grid-tile>
       </mat-grid-list>
      </div>
   </mat-tab>
@@ -50,5 +53,15 @@
       </mat-grid-list>
     </div>
  </mat-tab>
+ <mat-tab label="Education">
+  <div class = "slider_content">
+    <mat-grid-list cols="2" rowHeight="2:1">
+      <mat-grid-tile>Java Engine</mat-grid-tile>
+      <mat-grid-tile>JBoid AI</mat-grid-tile>
+      <mat-grid-tile>PyCoin</mat-grid-tile>
+      <mat-grid-tile>Portfolio</mat-grid-tile>
+    </mat-grid-list>
+  </div>
+</mat-tab>
 </mat-tab-group>
 
