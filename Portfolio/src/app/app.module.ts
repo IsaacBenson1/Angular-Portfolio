@@ -8,6 +8,7 @@ import { MatTabsModule , MatTabHeader} from '@angular/material/tabs';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {Component} from '@angular/core';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -21,7 +22,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     BrowserAnimationsModule,
     MatTabsModule,
     MatSlideToggleModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

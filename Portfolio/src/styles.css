@@ -15,27 +15,51 @@ body {
 
  .header-text {
     font-size: larger;
-    padding-left: 44%;
-    padding-bottom: 2%;
+    padding-bottom: 0%;
     font-family: Helvetica;
     font-size: xx-large;
-    color: #fffcf2;
+    text-align: center;
+    color: #fdfdfd;
+    padding-top: 3%;
+    height: 10%;
  }
 
+ .card-holder {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2%;
+
+
+ }
 
 body * {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     box-sizing: border-box;
  }
+ .mat-body, .mat-body-1, .mat-typography .mat-body, .mat-typography .mat-body-1, .mat-typography {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: normal;
+}
 
 
-
+ .card {
+    max-width: 60%;
+    background-color: #e9c46a;
+    margin: 2%;
+  }
  mat-tab-group {
-    height: 100%;
     justify-content: baseline;
     margin-left: auto;
   
     
+}
+
+mat-card-header{
+    font-weight: bold;
+    color: rgb(113, 113, 113);
+
 }
 
 mat-grid-list {
@@ -68,7 +92,7 @@ iframe {
 mat-tab-header {
     margin-bottom: 0px;
     border-bottom: 0px;
-    background-color: #E46414;
+    background-color: #E76F51;
     color: #faf3dd
 }
 .slider_content {
@@ -76,17 +100,20 @@ mat-tab-header {
     margin: 2%;
 }
 .header {
-    padding-top: 0%;
-    background-color: #0f4c5c;
-    align-items:center;
-    align-content:center;
+    background-color: #264653;
+    color:#faf3dd;
+    font-size: xx-large;
+    height: 10%;
+    padding: 5%;
+
+    text-align: center;
 }
 
 .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
     background-color: rgb(255, 204, 0);
 }
 .mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
-     background-color: #ff4d40; 
+     background-color: #F4A261; 
 }
 
 .mat-tab-group.mat-accent .mat-ink-bar, .mat-tab-nav-bar.mat-accent .mat-ink-bar {
@@ -99,6 +126,7 @@ mat-tab-header {
 .mat-tab-body {
     position: fixed;
     opacity: 1;
+    height:100%;
 
 }
 .mat-tab-label, .mat-tab-link {
@@ -142,4 +170,6 @@ mat-tab-header {
     font-style: italic;
     font-weight: bold;
 }
-
+html {
+    height: 100%;
+}

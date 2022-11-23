@@ -1,140 +1,86 @@
 <div class = "header" >
-  <div>
-    <mat-slide-toggle style = "margin-left: 90%; padding-top: 1%; padding-right: 0%;">
-      Dark Mode
-    </mat-slide-toggle>
-  </div>
-  <div class = "header-text">
+ 
     <b>
       <i>
         Isaac Benson
       </i>
     </b>
-  </div>
+  
 </div>
+
+
 
 <mat-tab-group animationDuration="500ms" mat-align-tabs="center" color = "accent">
   <mat-tab label="Introduction" >
-     <div class = "slider_content" style = "padding-left: 20%; padding-top: 4%; font-weight: bold; color: rgb(113, 113, 113)">
+    <div class = "slider_content" style = "text-align: center; padding-top: 4%; font-weight: bold; color: rgb(113, 113, 113)">
       Hey ! I'm Isaac Benson. I'm a senior Computer Science student at the University of Minnesota. I have 2 years of experience <br>
       in the tech industry, and I've been programing for over 6 years. I have professional experience in frontend web development, <br>
       as well as big data, and i'm excited to be seeking software engineering roles anticipating my graduation in May of 2023.
 
      </div>
-     <img src = "../assets/Me.jpg" style = "height: 40%; width: 29%; margin-left: 13%; border-radius: 15%; margin-top: 4%;">
-     <img src = "../assets/msp.jpeg" style = "height: 40%; width: 29%; margin-left: 56%; border-radius: 15%; margin-bottom: 2%;">
+     <img src = "../assets/Me.jpg" style = "height: 30%; width: 25%; margin-left: 13%; border-radius: 15%; margin-top: 0%; filter: drop-shadow(10px 10px 2px #27272e);">
+     <img src = "../assets/msp.jpeg" style = "height: 50%; width: 45%; margin-left: 45%; border-radius: 15%; margin-bottom: 2%; filter: drop-shadow(10px 10px 2px #27272e);">
 
   </mat-tab>
   <mat-tab label="Work experience">
-     <div class = "slider_content">
-      <mat-grid-list cols="2" rowHeight="2:1" gutterSize = "10px" >
-        <mat-grid-tile style = "background-color: #9a031f7c;" >
-          <div id ="tile">
-          <div id = "grid-content">
-            <img src = "../assets/blockMwhite.png" style = "width: 26%">
+    <div class = "card-holder">
+
+    <mat-card class="card" >
+      <mat-card-header>
+        <mat-card-title><b>Application Developer Intern at IDeaS</b></mat-card-title>
+        <mat-card-subtitle>Minneapolis, MN</mat-card-subtitle>
+        <img mat-card-xl-image src="../assets/IDEAS.png" style = "width: 20%;height: 20%; margin-left: 15%;margin-bottom: 5%;margin-top: 2%;" >
+
+      </mat-card-header>
+      <mat-card-content>
+        <p>IDeaS is a company owned by SAS that does data analytics to perform revenue management for the hospitality industry. It is the industry leader in this niche and is currently being utilized by nearly every major hotel chain in the world. As an application developer intern at IDeaS, I was apart of the frontend team working on the company's flagship product, Casper. I gained expertise of TypeScript-Angular and other TypeScript frameworks, and overall experience in web development and software engineering. I performed a wide and varied array of bug fixes, added new and impactful features, and completed several tech-debt related projects. Working with my international team, I was able to optimize our NX library configuration and improve build times by over 30%, an improvement that will benefit my team and Caspers users greatly moving forward.</p>
+      </mat-card-content>
+  
+    </mat-card>
+
+    
+      </div>
+      <div class = "card-holder">
+        <mat-card class="card" >
+          <mat-card-header>
+            <mat-card-title><b>Teaching Assistant at University of Minnesota</b></mat-card-title>
+            <mat-card-subtitle>Minneapolis, MN</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>Assisted in instructing a class of 175 students on fundamental theories of algorithms and data structures. Facilitated two lab sections of 30 students each, presenting information and providing detailed explanations/examples for hands-on learning experiences. Precisely graded labs, projects, and exams.</p>
+          </mat-card-content>
+      
+        </mat-card>
+
+        <mat-card class="card" >
+          <mat-card-header>
+            <mat-card-title><b>Web Programmer at LinkUp</b></mat-card-title>
+            <mat-card-subtitle>Minneapolis, MN</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>Worked as part of data scraping team to contribute to a database containing information on over 100,000 companies international job listings. Used PHP and RegEx to parse HTML / JavaScript files for statistical analysis and data analytics. Consistently exceeded weekly expectations and deadlines.</p>
+          </mat-card-content>
+      
+        </mat-card>
+    
+     
           </div>
-          <div>
-            &emsp; Teaching Assitant
-          </div>
-        </div>
-        </mat-grid-tile>
-        <mat-grid-tile style = "background-color: #fb8c2476;" >
-          <div id ="tile">
-          <div> 
-           <img src = "../assets/ideasSAS.png" style = "width: 30%">
-          </div>
-          <div>
-            &emsp; Application Developer Intern @ IDeaS SAS
-          </div>  
-          </div>
-        </mat-grid-tile>
-        <mat-grid-tile style = "background-color: #4586538c;" >
-          <div id ="tile">
-          <div style = "padding-right: 0"> 
-            <img src = "../assets/LinkUp.webp" style = "width: 30%;">
-           </div>
-           <div>
-            &emsp; Web Programming Intern @ LinkUp
-          </div> 
-          </div>
-        </mat-grid-tile>
-        <mat-grid-tile style = "background-color: #0f4d5c7b;">
-        <div id = "tile">
-            4
-        </div>
-        </mat-grid-tile>
-      </mat-grid-list>
-     </div>
-  </mat-tab>
+
+    </mat-tab>
+
   <mat-tab label="Projects">
-    <div class = "slider_content">
-      <mat-grid-list cols="2" rowHeight="2:1" gutterSize = "10px">
-        <mat-grid-tile style = "background-color: #9a031f7c;">
-          <div>
-            <img src = "../assets/blockMwhite.png" style = "width: 30%; height: 30%">
-          </div>
-          <div>
-            Teaching Assitant
-          </div>
-        </mat-grid-tile>
-        <mat-grid-tile style = "background-color: #fb8c2476;">
-          <div> 
-           <img src = "../assets/ideasSAS.png" style = "width: 45%; height: 45%;">
-          </div>
-          <div>
-            Application Developer Intern @ IDeaS SAS
-          </div>  
-        </mat-grid-tile>
-        <mat-grid-tile style = "background-color: #4586538c;" >
-          <div style = "padding-right: 0px"> 
-            <img src = "../assets/LinkUp.webp" style = "width: 45%; height: 45%;">
-           </div>
-           <div>
-            Web Programming Intern @ LinkUp
-          </div> 
-        </mat-grid-tile>
-        <mat-grid-tile style = "background-color: #0f4d5c7b;">4</mat-grid-tile>
-      </mat-grid-list>
-    </div>
+    
  </mat-tab>
  <mat-tab label="Education">
-  <div class = "slider_content">
-    <mat-grid-list cols="2" rowHeight="2:1" gutterSize = "10px">
-      <mat-grid-tile style = "background-color: #9a031f7c;" id = "grid-content">
-        <div>
-          <img src = "../assets/blockMwhite.png" style = "width: 30%; height: 30%">
-        </div>
-        <div>
-          Teaching Assitant
-        </div>
-      </mat-grid-tile>
-      <mat-grid-tile style = "background-color: #fb8c2476;">
-        <div> 
-         <img src = "../assets/ideasSAS.png" style = "width: 45%; height: 45%;">
-        </div>
-        <div>
-          Application Developer Intern @ IDeaS SAS
-        </div>  
-      </mat-grid-tile>
-      <mat-grid-tile style = "background-color: #4586538c;" >
-        <div style = "padding-right: 0px"> 
-          <img src = "../assets/LinkUp.webp" style = "width: 45%; height: 45%;">
-         </div>
-         <div>
-          Web Programming Intern @ LinkUp
-        </div> 
-      </mat-grid-tile>
-      <mat-grid-tile style = "background-color: #0f4d5c7b;">4</mat-grid-tile>
-    </mat-grid-list>
-  </div>
+  
 </mat-tab>
 <mat-tab label="Resume">
   <div class = "slider_content">
    <head>
      <title>Isaac Benson</title>
    </head>
-   <body style ="padding-left: 30%;">
-     <iframe src="../assets/Isaac Benson Resume.pdf" width="75%" height="850px" >
+   <body >
+     <iframe src="../assets/Isaac Benson Resume.pdf" width="100%" height="850px" >
      </iframe>
    </body>
   </div>
