@@ -12,28 +12,38 @@
 
 <mat-tab-group animationDuration="500ms" mat-align-tabs="center" color = "accent">
   <mat-tab label="Introduction" >
-    <div class = "slider_content" style = "text-align: center; padding-top: 4%; font-weight: bold; color: rgb(113, 113, 113)">
-      Hey ! I'm Isaac Benson. I'm a senior Computer Science student at the University of Minnesota. I have 2 years of experience <br>
+    <div class = "slider_content" style = "text-align: center; padding: 4%; font-weight: bold; color: rgb(113, 113, 113)">
+      Hey! I'm Isaac Benson. I'm a senior Computer Science student at the University of Minnesota. I have 2 years of experience <br>
       in the tech industry, and I've been programing for over 6 years. I have professional experience in frontend web development, <br>
       as well as big data, and i'm excited to be seeking software engineering roles anticipating my graduation in May of 2023.
 
      </div>
-     <img src = "../assets/Me.jpg" style = "height: 30%; width: 25%; margin-left: 13%; border-radius: 15%; margin-top: 0%; filter: drop-shadow(10px 10px 2px #27272e);">
-     <img src = "../assets/msp.jpeg" style = "height: 50%; width: 45%; margin-left: 45%; border-radius: 15%; margin-bottom: 2%; filter: drop-shadow(10px 10px 2px #27272e);">
+     <img src = "../assets/Me.jpg" style = "height: 40%; width: 32%; margin-left: 13%; border-radius: 15%; margin-top: 0%; filter: drop-shadow(5px 5px 2px #27272e);">
+     <img src = "../assets/msp.jpeg" style = "height: 50%; width: 45%; margin-left: 45%; border-radius: 15%; margin-bottom: 2%; filter: drop-shadow(5px 5px 2px #27272e);">
 
   </mat-tab>
   <mat-tab label="Work experience">
     <div class = "card-holder">
 
     <mat-card class="card" >
-      <mat-card-header>
-        <mat-card-title><b>Application Developer Intern at IDeaS</b></mat-card-title>
+      <a href="https://go.rev.ideas.com/arrive-with-ideas?gclid=CjwKCAiAyfybBhBKEiwAgtB7ftZTokrbzoPuebH5rM6TfSBy4z9aOsdgSeX-LduJsUV_fIVCyiQUFBoColQQAvD_BwE">
+      <img mat-card-xl-image src="../assets/IDEAS.png" style = "margin-bottom: 2%;height:70px;margin-bottom: 5%;margin-top: 2%;filter: drop-shadow(1px 1px 1px #000000); " >
+    </a>
+
+      <mat-card-header style = "flex-direction: column;">
+        <mat-card-title><b>Application Developer Intern</b></mat-card-title>
         <mat-card-subtitle>Minneapolis, MN</mat-card-subtitle>
-        <img mat-card-xl-image src="../assets/IDEAS.png" style = "width: 20%;height: 20%; margin-left: 15%;margin-bottom: 5%;margin-top: 2%;" >
 
       </mat-card-header>
       <mat-card-content>
-        <p>IDeaS is a company owned by SAS that does data analytics to perform revenue management for the hospitality industry. It is the industry leader in this niche and is currently being utilized by nearly every major hotel chain in the world. As an application developer intern at IDeaS, I was apart of the frontend team working on the company's flagship product, Casper. I gained expertise of TypeScript-Angular and other TypeScript frameworks, and overall experience in web development and software engineering. I performed a wide and varied array of bug fixes, added new and impactful features, and completed several tech-debt related projects. Working with my international team, I was able to optimize our NX library configuration and improve build times by over 30%, an improvement that will benefit my team and Caspers users greatly moving forward.</p>
+        <p>IDeaS is a company owned by SAS that does data analytics to perform revenue management 
+          for the hospitality industry. It is the industry leader in this niche and is currently being 
+          utilized by nearly every major hotel chain in the world. As an application developer intern at IDeaS,
+           I was a part of the front-end team working on the company's flagship product, Casper. I gained expertise in 
+           TypeScript-Angular and other TypeScript frameworks, and overall experience in web development and software engineering. 
+           I performed a wide and varied array of bug fixes, added new and impactful features, and completed several tech-debt-related 
+           projects. Working with my international team, I was able to optimize our NX library configuration and improve build times by 
+           over 30%, an improvement that will benefit my team and Caspers users greatly moving forward.</p>
       </mat-card-content>
   
     </mat-card>
@@ -41,37 +51,160 @@
     
       </div>
       <div class = "card-holder">
-        <mat-card class="card" >
-          <mat-card-header>
-            <mat-card-title><b>Teaching Assistant at University of Minnesota</b></mat-card-title>
+        <mat-card class="card" style="">
+          <a href="https://cse.umn.edu/cs">
+          <img mat-card-xl-image src="../assets/UMNred.png" style = "margin-bottom: 2%;height:125px;margin-bottom: 5%;margin-top: 2%;filter: drop-shadow(1px 1px 1px #000000);" >
+          </a>
+          <mat-card-header style = "flex-direction: column;">
+            <mat-card-title><b>Teaching Assistant</b></mat-card-title>
             <mat-card-subtitle>Minneapolis, MN</mat-card-subtitle>
-          </mat-card-header>
-          <mat-card-content>
-            <p>Assisted in instructing a class of 175 students on fundamental theories of algorithms and data structures. Facilitated two lab sections of 30 students each, presenting information and providing detailed explanations/examples for hands-on learning experiences. Precisely graded labs, projects, and exams.</p>
-          </mat-card-content>
-      
-        </mat-card>
 
-        <mat-card class="card" >
-          <mat-card-header>
-            <mat-card-title><b>Web Programmer at LinkUp</b></mat-card-title>
-            <mat-card-subtitle>Minneapolis, MN</mat-card-subtitle>
           </mat-card-header>
           <mat-card-content>
-            <p>Worked as part of data scraping team to contribute to a database containing information on over 100,000 companies international job listings. Used PHP and RegEx to parse HTML / JavaScript files for statistical analysis and data analytics. Consistently exceeded weekly expectations and deadlines.</p>
+            <p>While working as a teaching assistant at the University of Minnesota, 
+              I have assisted in instructing a class of 400 students on fundamental theories and
+               applications of algorithms and data structures in java. I facilitate two lab sections of 30 students 
+               each, presenting information and providing detailed explanations/examples for hands-on learning experiences. 
+               I also assist in the development of core course materials such as writeups, rubrics,
+               exams, and lab instructions, as well as the meticulous grading of labs, projects, and exams.	</p>
           </mat-card-content>
       
         </mat-card>
+        <mat-card class="card" style="">
+          <a href="https://www.linkup.com/">
+          <img mat-card-xl-image src="../assets/LinkUp.webp" style = "margin-bottom: 2%;height: 55px;margin-bottom: 5%;margin-top: 2%;filter: drop-shadow(1px 1px 1px #000000);" >
+            </a>
+          <mat-card-header style = "flex-direction: column;">
+
+            <mat-card-title><b>Web Programmer</b></mat-card-title>
+            <mat-card-subtitle>Minneapolis, MN</mat-card-subtitle>
+
+          </mat-card-header>
+          <mat-card-content>
+            <p>LinkUp is a data analytics company that focuses on analyzing the worldwide labor market.
+               While working at LinkUp, I've played an integral role as part of a data scraping team to 
+               contribute to and maintain the company's database containing information on over 100,000 companies'
+                international job listings. I use PHP and RegEx to write scripts that fetch relevant data from across 
+                the internet for statistical analysis and data analytics and consistently exceed weekly expectations
+                 and deadlines.</p>
+          </mat-card-content>
+      
+        </mat-card>
+     
     
      
+          </div>
+          <div class = "card-holder">
+           
           </div>
 
     </mat-tab>
 
   <mat-tab label="Projects">
+    <div class = "card-holder">
+
+      <mat-card class="card" >
+        <div class = "iframeContainer">
+          <iframe width="90%" height="350px" src="https://www.youtube.com/embed/rK1bds-teB8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style ="border-radius: 10px;"></iframe>        
+      </div> 
+        <mat-card-header style = "flex-direction: column;">
+          <mat-card-title><b>JavaEngine</b></mat-card-title>
+  
+        </mat-card-header>
+        <mat-card-content>
+          <p>"JavaEngine" is the name of a project that I started in June of 2021. It is a 3D engine written entirely from scratch in java.
+             It uses properties of linear algebra and projective geometry in order to achieve a form of rendering called rasterization.
+            This engine is capable of loading obj files from blender, and has a movable camera. It uses no external libraries other than JFrame,
+          which is just the window that the program runs in.</p>
+        </mat-card-content>
+        <a href = "https://github.com/isaacbenson1/javaengine" style ="margin-left:2%" >
+          <img src = "../assets/25231.png" alt = "github icon" width = "35" height = "35">
+      </a>
+    
+      </mat-card>
+  
+      
+        </div>
+        <div class = "card-holder">
+          <mat-card class="card" style="">
+            <iframe width="90%" height="350px" src="https://www.youtube.com/embed/s_gcl0i7FSI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style ="border-radius: 10px;"></iframe>    
+            <mat-card-header style = "flex-direction: column;">
+              <mat-card-title><b>JBoid AI</b></mat-card-title>
+  
+            </mat-card-header>
+            <mat-card-content>
+              <p>This is a simple simulation of ' boids ' which are a mathematical concept invented by mathematician Craig Reynolds in 1986. Using relatively few and simple rules, behavior that appears to mimic flocks of birds/schools of fish can be replicated on the screen.</p>
+            </mat-card-content>
+            <a href = "https://github.com/isaacbenson1/jboidai" style ="margin-left:2%" >
+              <img src = "../assets/25231.png" alt = "github icon" width = "35" height = "35">
+          </a>
+        
+          </mat-card>
+          <mat-card class="card" style="">
+            <img mat-card-xl-image src="../assets/blockchain.png" style = "margin-bottom: 2%;height: 200px;margin-bottom: 5%;margin-top: 2%;" >
+  
+            <mat-card-header style = "flex-direction: column;">
+  
+              <mat-card-title><b>PyCoin</b></mat-card-title>
+  
+            </mat-card-header>
+            <mat-card-content>
+              <p>A simple implementation of blockchain technology, utilizing SHA256 and MD5 encryption, as well as RSA signing in order to process secure transactions. This project is currently a work in progress.</p>
+            </mat-card-content>
+            <a href = "https://github.com/isaacbenson1/pycoin" style ="margin-left:2%" >
+              <img src = "../assets/25231.png" alt = "github icon" width = "35" height = "35">
+          </a>
+        
+          </mat-card>
+          <mat-card class="card" style="">
+            <img mat-card-xl-image src="../assets/portfolio.png" style = "margin-bottom: 2%;height: 200px;margin-bottom: 5%;margin-top: 2%;" >
+  
+            <mat-card-header style = "flex-direction: column;">
+  
+              <mat-card-title><b>Developer Portfolio</b></mat-card-title>
+  
+            </mat-card-header>
+            <mat-card-content>
+              <p>This website was built entirely from scratch using TypeScript Angular and NodeJS, which was the tech stack I learned while working for IDeaS RMS as a frontend app developer intern.</p>
+            </mat-card-content>
+            <a href = "https://github.com/isaacbenson1/pycoin" style ="margin-left:2%" >
+              <img src = "../assets/25231.png" alt = "github icon" width = "35" height = "35">
+          </a>
+        
+          </mat-card>
+            </div>
+
+           
     
  </mat-tab>
  <mat-tab label="Education">
+      <div class = "card-holder">
+        <mat-card class="card" style="margin-bottom: 20%;">
+          <img mat-card-xl-image src="../assets/UMNred.png" style = "margin-bottom: 2%;height:75px; width: 125px; margin-bottom: 5%;margin-top: 2%;" >
+
+          <mat-card-header style = "flex-direction: column;">
+            <mat-card-title><b>University of Minnesota, Twin Cities</b></mat-card-title>
+            <mat-card-subtitle>Minneapolis, MN</mat-card-subtitle>
+
+          </mat-card-header>
+          <mat-card-content>
+            <p>I am currently studying computer science at the University of Minnesota, Twin Cities. 
+              I will be graduating in May of 2023 and am excited to be entering the tech industry. In my coursework,
+              I have been specializing in Software Development, Operating Systems, Machine Learning, Cloud Computing / Security,
+              and Artificial intelligence. I have also been faculty of the computer science department for the last year, assisting
+              in the instruction of an algorithms and data structures course, where I have had the privilege of working closely
+              with a team of brilliant professors and graduate students.</p>
+          </mat-card-content>
+      
+        </mat-card>
+       
+     
+    
+     
+          </div>
+          <div class = "card-holder">
+           
+          </div>
   
 </mat-tab>
 <mat-tab label="Resume">
@@ -86,4 +219,15 @@
   </div>
 </mat-tab>
 </mat-tab-group>
+
+<div class = "footer" style ="justify-content: center; margin-top: 3%">
+ 
+       <a href = "https://www.linkedin.com/in/isaac-benson1/" >
+          <img src = "../assets/61109.png" alt = "linkedin icon" width = "35" height = "35">
+      </a>
+      <a href = "https://github.com/isaacbenson1" style ="margin-left:2%" >
+          <img src = "../assets/25231.png" alt = "github icon" width = "35" height = "35">
+      </a>
+
+</div>
 
